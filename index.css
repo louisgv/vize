@@ -25,6 +25,7 @@ canvas {
     cursor: pointer;
     /*box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);*/
     background: black;
+    top:0px
 }
 
 footer {

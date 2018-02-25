@@ -172,16 +172,19 @@ var app = app || {};
         availablePonchoSizes.forEach((size) => {
             const shapeSelect = Interface.generateSelect(`Select shape for ${size} Poncho`, availableShapes, 'Diamond', (e) => {
                 visualizerInstance.ponchoEye[`update${size}ShapeCache`](e.target.value);
-            }, 'margin-right');
+            });
 
-            ponchoEyeShapeUI.appendChild(Helper.createElement(`
-                <label class="generic-label">
+            const shapeSelectLabel = Helper.createElement(`
+                <label class="generic-label margin-right">
                     <span>
                         ${size}
                     </span>
                 </label>
-            `));
-            ponchoEyeShapeUI.appendChild(shapeSelect);
+            `);
+
+            shapeSelectLabel.appendChild(shapeSelect);
+
+            ponchoEyeShapeUI.appendChild(shapeSelectLabel);
         });
     }
 

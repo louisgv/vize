@@ -54,6 +54,7 @@ footer h4, footer h5 {
     flex-direction: column;
     align-items: baseline;
     pointer-events: none;
+    max-width: 63vw;
 }
 
 #controls button, #now-playing div {
@@ -61,6 +62,7 @@ footer h4, footer h5 {
 }
 
 .interactive {
+    max-width: 100%;
     pointer-events: auto;
 }
 
@@ -121,6 +123,7 @@ footer h4, footer h5 {
 .flex-row {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .flex-column {
@@ -131,6 +134,7 @@ footer h4, footer h5 {
 .flex-inline-row {
     display: inline-flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .tool-row, .margin-bottom {

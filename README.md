@@ -28,7 +28,11 @@ Vize is an experimental music visualizer. It has a few interesting thing:
     browser-sync start --server --files "."
 ```
 
-# Audio Binary Credits
+# Credits
+
+Logo created using [DotGrid](https://github.com/hundredrabbits/Dotgrid) by [Devine Lu Linvega](https://twitter.com/neauoire)
+
+## Audio binary
 
 + Cold cold cold by Cage the Elephant
 + Celery by Birocratic
@@ -41,6 +45,6 @@ Vize is an experimental music visualizer. It has a few interesting thing:
 + Hazey by Glass Animals
 + WolrdStarMoney by Joji
 
-# LICENSE
+# License
 
 MIT, COPYLEFT @louisgv, ALL RIGHT RELEASED

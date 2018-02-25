@@ -1,5 +1,3 @@
-# Vize
-
 <p align="center">
   <a href="https://louisgv.me/vize/">
     <img alt="vize" src="https://github.com/louisgv/vize/blob/master/media/icon.png" width="234">
@@ -7,11 +5,11 @@
 </p>
 
 <h1 align="center">
-    Vize
+Vize
 </h1>
 
 <h2 align="center">
-    Vibe Visualizer
+Vibe Visualizer
 </h2>
 
 # Goal

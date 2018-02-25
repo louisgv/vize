@@ -1,6 +1,34 @@
 # Vize
 
-A vibe visualizer
+<p align="center">
+  <a href="https://louisgv.me/vize/">
+    <img alt="vize" src="https://github.com/louisgv/vize/blob/master/media/icon.png" width="234">
+  </a>
+</p>
+
+<h1 align="center">
+    Vize
+</h1>
+
+<h2 align="center">
+    Vibe Visualizer
+</h2>
+
+# Goal
+
+Vize is an experimental music visualizer. It has a few interesting thing:
++ Most shapes are customizable
++ Its architecture allows mildly scalability with adding more complex shape.
+
+# Setup
+
+```sh
+    npm i -g browser-sync
+```
+
+```sh
+    browser-sync start --server --files "."
+```
 
 # Audio Binary Credits
 
